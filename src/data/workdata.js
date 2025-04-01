@@ -1,89 +1,97 @@
-import bg1 from '../assets/bg1.jpg';
-import bg2 from '../assets/bg2.jpg';
-import bg3 from '../assets/bg3.jpg';
-import bg4 from '../assets/bg4.jpg';
-
+import bg1 from '../assets/bg11.jpg';
+import bg2 from '../assets/bg22.jpg';
+import bg3 from '../assets/bg33.jpg';
+import bg4 from '../assets/bg40.jpg';
+import bg5 from '../assets/bg55.jpg';
+import bg6 from '../assets/bg66.jpg';
+import bg7 from '../assets/bg77.jpg';
+import bg8 from '../assets/bg88.jpg';
+import bg9 from '../assets/bg99.jpg';
 export const workinfos = [
     {
         style: ['All', 'Concept'],
-        name: 'Half Avocado',
-        time: 2023,
-        description: 'The author designed it use the react and the bootstraps',
+        name: 'Resume Navigation',
+        time: 2024,
+        description: 'This website is mainly built with the React, CSS, and Bootstrap.',
         image: bg1,
-        skills: ['React', 'CSS', 'JavaScript']
+        skills: ['React', 'CSS', 'Bootstrap']
 
     },
     {
         style: ['All', 'Design'],
-        name: 'Pink Flamingo',
-        time: 2019,
-        description: 'The author designed it use the js and restfulapi and the bootstraps',
+        name: 'Resume Information',
+        time: 2024,
+        description: 'This website is mainly built with the React, CSS.',
         image: bg2,
         skills: ['React', 'CSS', 'JavaScript']
 
     },
     {
         style: ['All', 'Life'],
-        name: 'Abstract',
-        time: 2022,
-        description: 'The author designed it use the html and css and the bootstraps',
+        name: 'Comment Display',
+        time: 2024,
+        description: "This project mainly uses React's useState hook for state management.",
         image: bg3,
-        skills: ['React', 'CSS', 'JavaScript']
+        skills: ['React', 'CSS']
 
     },
     {
         style: ['All', 'Concept'],
-        name: 'Golden Gate',
-        time: 2018,
-        description: 'The author designed it use the Html and the bootstraps',
-        image: bg4
-
-    },
-    {
-        style: ['All', 'Life'],
-        name: 'Half Avocado',
-        time: 2021,
-        description: 'The author designed it use the css and the bootstraps',
-        image: bg1,
-        skills: ['React', 'CSS', 'JavaScript']
-
-    },
-    {
-        style: ['All', 'Concept'],
-        name: 'Red Ball',
-        time: 2020,
-        description: 'The author designed it use the javascript and the bootstraps',
-        image: bg2,
-        skills: ['React', 'CSS', 'JavaScript']
-
-    },
-    {
-        style: ['All', 'Life'],
-        name: 'Red Ball',
-        time: 2020,
-        description: 'The author designed it use the python and the bootstraps',
-        image: bg3,
-        skills: ['React', 'CSS', 'JavaScript']
-
-    },
-    {
-        style: ['All', 'Concept'],
-        name: 'Yellow light',
-        time: 2020,
-        description: 'The author designed it use the react and the sql',
+        name: 'Timer',
+        time: 2024,
+        description: "This project mainly uses JavaScript and CSS.",
         image: bg4,
-        skills: ['React', 'CSS', 'JavaScript']
+        skills: ['JavaScript', 'CSS']
 
     },
     {
         style: ['All', 'Life'],
-        name: 'Colorful light',
-        time: 2022,
-        description: 'The author designed it use the spring and node.js',
-        image: bg1,
-        skills: ['React', 'CSS', 'JavaScript']
+        name: 'Clock',
+        time: 2024,
+        description: "This project mainly uses JavaScript and CSS.",
+        image: bg5,
+        skills: ['CSS', 'JavaScript']
 
     },
+    {
+        style: ['All', 'Concept'],
+        name: 'Images carousel',
+        time: 2024,
+        description: "This project mainly uses React , CSS and Redux.",
+        image: bg6,
+        skills: ['React', 'CSS', 'Redux']
+
+    },
+    {
+        style: ['All', 'Life'],
+        name: 'yellow Ball',
+        time: 2020,
+        description: "This project mainly uses JavaScript and CSS.",
+        image: bg7,
+        skills: ['CSS', 'JavaScript']
+
+    },
+    {
+        style: ['All', 'Design'],
+        name: 'Timer and clock',
+        time: 2024,
+        description: "This project mainly uses React's hook and CSS.",
+        image: bg8,
+        skills: ['React', 'CSS']
+
+    },
+     {
+        style: ['All', 'Concept'],
+        name: 'carousel',
+        time: 2024,
+        description: "This project mainly uses JavaScript and CSS.",
+        image: bg9,
+        skills: ['CSS', 'JavaScript']
+
+    }
+
+
+
 
 
 

@@ -1,0 +1,193 @@
+
+.infos {
+    width: 800px;
+    height: fit-content;
+    /* border: 1px solid rgb(245, 45, 45); */
+    /* margin-top: 30px; */
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 20px 40px rgba(103, 118, 128, 0.03)
+}
+.resume h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.resume .eduAndexpe {
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+
+}
+.resume .eduAndexpe h3{
+    padding: o;
+    margin: 0;
+}
+.resume .eduAndexpe h5 {
+    color: rgb(89, 87, 87);
+}
+.resume .eduAndexpe p {
+    color: grey;
+}
+.resume .eduAndexpe ul{
+    padding: 0;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.resume .eduAndexpe ul li {
+    width: 100%;
+    /* list-style-type:  circl; */
+   margin-left: 30px;
+    /* padding: 0;
+    margin: 0; */
+
+}
+.resume  .skillPart{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.resume .skillPart .skills {
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    width: 100%;
+    height: 250px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/* .resume .skillPart .skills .label {
+    width: 90%;
+    height: 22px;
+    background-color: rgb(106, 108, 107);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+    color: white;
+    line-height: 22px;
+    padding-left: 10px;
+} */
+.skill-bar {
+    margin-bottom: 20px;
+    color: white;
+    font-size: small;
+  }
+
+  /* .label {
+    margin-bottom: 8px;
+    font-weight: 400;
+    color: black
+  } */
+
+  .bar-bg {
+    background-color: #737272db;
+    border-radius: 999px;
+    overflow: hidden;
+    width: 660px;
+    height: 22px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 5px; */
+  }
+
+  .bar-fill-one {
+    height: 100%;
+    background: linear-gradient(to right, #62b4fb, #1404a5); /* 渐变色 */
+    border-radius: 999px;
+    width: 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-right: 15px;
+    box-sizing: border-box;
+    animation: fillBarone 2s ease forwards;
+    /* opacity: 0.5; */
+  }
+
+  .percentage {
+    font-weight: bold;
+    color: white;
+    font-size: small;
+  }
+
+  .bar-fill-two {
+    height: 100%;
+    background: linear-gradient(to right, #84bef0, #1316f3); /* 渐变色 */
+    border-radius: 999px;
+    width: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+    box-sizing: border-box;
+    animation: fillBartwo 2s ease forwards;
+    /* opacity: 0.5; */
+  }
+  .bar-fill-three {
+    height: 100%;
+    background: linear-gradient(to right,#84bef0, #1316f3); /* 渐变色 */
+    border-radius: 999px;
+    width: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+    box-sizing: border-box;
+    animation: fillBarthree 2s ease forwards;
+    /* opacity: 0.5; */
+  }
+  .bar-fill-four {
+    height: 100%;
+    background: linear-gradient(to right, #84bef0, #1316f3); /* 渐变色 */
+    border-radius: 999px;
+    width: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+    box-sizing: border-box;
+    animation: fillBarfour 2s ease forwards;
+    /* opacity: 0.5; */
+  }
+  /* 动画定义 */
+  @keyframes fillBarone {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 80%; /* 这个在内联style中控制具体数值 */
+    }
+  }
+  @keyframes fillBartwo {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 75%;
+    }
+  }
+
+  @keyframes fillBarthree {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 90%;
+    }
+  }
+
+  @keyframes fillBarfour {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 50%;
+    }
+  }

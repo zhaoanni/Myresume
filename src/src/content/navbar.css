@@ -1,0 +1,44 @@
+
+.navbar {
+    width: 150px;
+    height: 100vh;
+    /* border: 1px solid rgb(62, 9, 9); */
+    /* margin-top: 30px; */
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 20px 40px rgba(103, 118, 128, 0.03)
+}
+.navbar .navbutton {
+    list-style: none;
+    width: 100%;
+    padding:0;
+
+
+}
+.navbar .navbutton li {
+    width: 95px;
+    height: 90px;
+    /* border: 1px solid yellow; */
+    border-radius: 20px;
+    background-color: rgb(210, 211, 212);
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 90px;
+}
+.navbar .navbutton .chose {
+    background-color: rgb(3, 85, 126);
+    color: #fff;
+}
+.navbar .navbutton:first-child {
+   margin-top: 30px;
+}

@@ -1,0 +1,62 @@
+.infos {
+    width: 800px;
+    height: fit-content;
+    /* border: 1px solid rgb(245, 45, 45); */
+    /* margin-top: 30px; */
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 20px 40px rgba(103, 118, 128, 0.03)
+}
+
+.works h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.works .worksName ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.workimg {
+    width: 200px;
+    height: 150px;
+    /* border: 1px solid grey; */
+    /* display: inline-block; */
+    border-radius: 10px;
+
+}
+.bigimg {
+
+    width: 90%;
+    height: 100%;
+    position: fixed ;
+    top: 0;
+    left: 5%;
+    /* right: auto; */
+
+}
+.workInfos ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 5%;
+
+}
+.workInfos ul li {
+    width: 200px;
+    /* height: 300px; */
+    list-style: none;
+    border: 1px solid lightgray;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.worksName li:hover {
+    cursor: pointer;
+}
+.workInfos ul li .workDetails .itemdes{
+    height: 50px;
+}
+.workDetails p {
+    color: grey;
+}

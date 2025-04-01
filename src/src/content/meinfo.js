@@ -1,7 +1,6 @@
 import './meinfo.css';
 import React, { useState, useEffect } from 'react';
 import bg1 from '../assets/bg1.jpg';
-
 import bg2 from '../assets/bg2.jpg';
 import bg3 from '../assets/bg3.jpg';
 import bg4 from '../assets/bg4.jpg';
@@ -93,17 +92,10 @@ function MeInfo() {
             <div className='photos'>
                 <h4>Testimonials</h4>
                 <div className='imgs'>
-            
-                    <div
-                        className='img'
-                        style={{
-                            backgroundImage: `url(${images[currentIndex]})`,
-                             backgroundSize: 'cover',
-                            backgroundPosition: 'center',
-                            // objectFit: 'cover'
-
-                        }}
-                    >
+                    <div className='img' style={{
+                        backgroundImage: `url(${images[currentIndex]})`,
+                        backgroundSize: 'cover', backgroundPosition: 'center'
+                    }}>
                     </div>
 
                 </div>
