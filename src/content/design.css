@@ -1,0 +1,71 @@
+/* .design {
+    height: 100vh;
+} */
+.design h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.design p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.design .comments {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.design .comments .comment-item h4 {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.design .comments .comment-item p {
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.design .comments .comment-item span {
+    padding-bottom: 20px;
+}
+.design .comment-item {
+    background-color: beige;
+    border-radius: 10px;
+}
+.design .lettercontent {
+    line-height: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
+}
+.design .inputusername {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+.design .inputcomment {
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+}
+.design form {
+    padding-bottom: 100px;
+
+}
+.design .commentform {
+    display: flex;
+    justify-content: space-between;
+}
+.design button {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin-top: 50px;
+    border: none;
+
+}
+.design .subbutt {
+    display: flex;
+    justify-content: right;
+}
+.design .likeandtime {
+    display: flex;
+    justify-content: right;
+}

@@ -1,0 +1,95 @@
+.infos {
+    width: 800px;
+    /* height: fit-content; */
+    /* border: 1px solid rgb(245, 45, 45); */
+    /* margin-top: 30px; */
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 20px 40px rgba(103, 118, 128, 0.03)
+}
+.contact h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.contact .position {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    /* height: 300px; */
+    /* border : 1px solid grey; */
+
+}
+.contact .position img{
+
+    margin: 0;
+    height: auto;
+    padding: 0;
+    width: 100%;
+    /* border : 1px solid grey; */
+
+}
+.contact h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+ .clientinput {
+    margin-left: 5%;
+    margin-right: 5%;
+    /* width: 90%; */
+    display: inline-block;
+    /* justify-content: space-between; */
+}
+.contact .clientinput input {
+    all:unset;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding-left: 20px;
+
+}
+.right {
+    margin-right: 0;
+}
+.infos .clientinput input:focus {
+    border: 2px solid blue;
+}
+.infos .clientext textarea {
+    all: unset;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100px;
+    margin-top: 100px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.infos .clientinput textarea:focus {
+    border: 2px solid blue;
+}
+.infos .button {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align:end;
+
+    width: 90%;
+
+
+}
+.infos .button button {
+    margin-top: 30px;
+    padding-right: 0;
+    margin-right: 0;
+    height: 50px;
+    width: 280px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    background-color: rgb(110, 110, 160);
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
