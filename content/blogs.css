@@ -1,0 +1,63 @@
+.infos {
+    width: 800px;
+    height: fit-content;
+
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 20px 40px rgba(103, 118, 128, 0.03)
+}
+.blogs h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    /* width: fit-content;
+    border-bottom: 5px solid red; */
+    margin-bottom: 5px;
+
+}
+.blogs .border {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 30px;
+    height: 5px;
+    background-color: red;
+    margin-top: 0;
+    margin-bottom: 15px;
+
+}
+.blogs .blogcontainer {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.blogs .imgscontainer img {
+    width: 200px;
+    margin: 0;
+    height: 150px;
+    border-radius: 10px 10px 0 0;;
+
+}
+.blogs ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.blogs ul li {
+    width: 200px;
+    height: 400px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.blogs .imgscontainer {
+    position : relative;
+}
+.blogs .imgscontainer .overlaytext {
+    position : absolute;
+    top:0;
+    left: 0;
+    background-color: rgb(213, 90, 3);
+    color: white;
+    padding: 10px;
+    border-radius: 10px 0 0 0;;
+}

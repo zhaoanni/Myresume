@@ -1,0 +1,106 @@
+.infos {
+    width: 800px;
+    height: fit-content;
+    /* border: 1px solid rgb(245, 45, 45); */
+    /* margin-top: 30px; */
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 20px 40px rgba(103, 118, 128, 0.03)
+}
+
+.infos .describe {
+    margin-left: 5%;
+    margin-right: 5%;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.infos .describe h3 {
+    padding-top: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: #5e5c5c;
+}
+.infos .describe p {
+    line-height: 1.8;
+    color: #7d7878;
+}
+
+.infos .talent .capability {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* width: 100%; */
+}
+.infos .talent .capability div h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+.infos .talent .capability div p {
+    text-align: center;
+    font-size: 15px;
+}
+.infos .talent h4 {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace ;
+    color: #5e5c5c;
+    margin-bottom: 15px;
+
+}
+
+.infos .talent .capability div {
+    width: 47%;
+    height: 200px;
+    border: 1px solid rgb(212, 216, 212);
+    margin-bottom: 60px;
+
+
+
+}
+
+.imgs {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    width: 90%;
+}
+
+.imgs div {
+    height: 200px;
+    border: 1px solid grey;
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photos h4{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace ;
+    color: #5e5c5c
+}
+
+.imgcontrols {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.imgcontrols span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.imgcontrols .pick {
+    width: 25px;
+    height: 12px;
+    border-radius: 25px;
+
+}

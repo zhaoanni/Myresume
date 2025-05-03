@@ -1,0 +1,16 @@
+
+
+.App {
+  background-color: rgb(235, 234, 234);
+
+}
+.App-header {
+  width: 100%;
+  height: 350px;
+  background-image: url("https://thumbs.dreamstime.com/b/d-rendering-digital-abstract-technology-blue-color-computer-software-flow-chart-data-science-system-diagram-background-140886127.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
