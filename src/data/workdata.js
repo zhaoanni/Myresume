@@ -94,18 +94,18 @@ export const exitcomments = [
     {
         username: 'Lily spholie',
         comment: 'This website design is very special.',
-        posttime: '29/02/2022'
+        posttime: '02/03/2022'
     },
     {
         username: 'Jack jims',
         comment: 'The design is very covenient.',
-        posttime: '20/08/2020'
+        posttime: '08/11/2020'
     },
 
     {
         username: 'Tommy lucysh',
         comment: 'I like this website. ',
-        posttime: '12/11/2018'
+        posttime: '11/10/2018'
     },
 
 ]
